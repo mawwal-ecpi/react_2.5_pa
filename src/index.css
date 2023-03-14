@@ -1,0 +1,68 @@
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  }
+  
+  h1, h2, p, ul, li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  }
+  
+  ul.header {
+  background-color: #111;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  }
+  
+  ul.header li {
+  list-style: none;
+  }
+  
+  ul.header li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+  }
+  
+  ul.header li a:hover {
+  background-color: #333;
+  }
+  
+  .content {
+  background-color: lightblue;
+  padding: 40px;
+  margin: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  }
+  
+  .content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  .content p {
+  line-height: 1.5;
+  font-size: 16px;
+  }
+  
+  .content ul {
+  list-style: none;
+  padding-left: 20px;
+  }
+  
+  .content li {
+  margin-bottom: 10px;
+  }
+
+  .App {
+    height: 10%;
+    width: 20%
+  }
+
